@@ -1,0 +1,21 @@
+# Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets / images
+Three_Classes/
+test_image/
+
+# Logs
+*.log
+src/log.txt
+
+# OS junk
+Thumbs.db
+.DS_Store
