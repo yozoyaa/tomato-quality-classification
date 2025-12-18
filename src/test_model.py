@@ -1,5 +1,4 @@
 import os
-import json
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -19,25 +18,11 @@ IMG_SIZE = (224, 224)
 # Default (must match training order)
 CLASS_NAMES = ["Reject", "Ripe", "Unripe"]
 
-# Optional: if you saved class names during training
-CLASS_NAMES_PATH = "../model/class_names.json"
-
-
 # ==============================
 # LOAD MODEL
 # ==============================
 model = tf.keras.models.load_model(MODEL_PATH, compile=False)
 print(f"[INFO] Loaded model from: {MODEL_PATH}")
-
-# Load class names if available (safer than hardcoding)
-if os.path.exists(CLASS_NAMES_PATH):
-    try:
-        with open(CLASS_NAMES_PATH, "r") as f:
-            CLASS_NAMES = json.load(f)
-        print(f"[INFO] Loaded class names from: {CLASS_NAMES_PATH} -> {CLASS_NAMES}")
-    except Exception as e:
-        print(f"[WARN] Failed to load class_names.json, using default CLASS_NAMES. Reason: {e}")
-
 
 # ==============================
 # FUNCTIONS

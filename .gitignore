@@ -9,8 +9,9 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Datasets / images
-Three_Classes/
-test_image/
+imagetest/
+dataset/
+data_set_old/
 
 # Logs
 *.log

@@ -1,7 +1,7 @@
-=== Debug Log Created at 2025-12-15 22:54:08.886932 ===
-[2025-12-15 22:54:10] Initialized environment and imported all required libraries.
-[2025-12-15 22:54:12] Loaded dataset paths: 2400 images found across 3 folders (Reject, Ripe, Unripe).
-[2025-12-15 22:54:14] Split done (stratified): train=1680 (70.0%), valid=360 (15.0%), test=360 (15.0%).
-[2025-12-15 22:54:17] Datasets ready (aug+preprocess_input). batch_size=32, classes=['Reject', 'Ripe', 'Unripe']
-[2025-12-15 22:54:20] Visualized a training batch — batch_size=32, labels=['Unripe', 'Unripe', 'Reject', 'Unripe', 'Ripe', 'Unripe', 'Unripe', 'Reject', 'Unripe', 'Ripe', 'Reject', 'Reject', 'Reject', 'Unripe', 'Ripe', 'Reject', 'Unripe', 'Reject', 'Unripe', 'Ripe', 'Reject', 'Reject', 'Ripe', 'Reject', 'Ripe', 'Reject', 'Reject', 'Unripe', 'Ripe', 'Reject', 'Ripe', 'Reject'].
-[2025-12-15 22:54:22] Model compiled: EfficientNetB0 frozen + GAP + Dropout.
+=== Debug Log Created at 2025-12-19 00:07:49.795041 ===
+[2025-12-19 00:08:02] Initialized environment and imported all required libraries.
+[2025-12-19 00:08:11] Loaded dataset paths: 3708 images found across 3 folders (Reject, Ripe, Unripe).
+[2025-12-19 00:08:20] Split done (stratified): train=2595 (70.0%), valid=556 (15.0%), test=557 (15.0%).
+[2025-12-19 00:08:28] Datasets ready (aug+preprocess_input). batch_size=32, classes=['Reject', 'Ripe', 'Unripe']
+[2025-12-19 00:09:05] Visualized a training batch — batch_size=32, labels=['Unripe', 'Unripe', 'Ripe', 'Ripe', 'Unripe', 'Ripe', 'Ripe', 'Reject', 'Ripe', 'Unripe', 'Ripe', 'Ripe', 'Unripe', 'Reject', 'Unripe', 'Reject', 'Ripe', 'Ripe', 'Reject', 'Reject', 'Reject', 'Ripe', 'Reject', 'Reject', 'Ripe', 'Ripe', 'Ripe', 'Ripe', 'Ripe', 'Unripe', 'Reject', 'Ripe'].
+[2025-12-19 00:09:29] Model compiled: EfficientNetB0 frozen + GAP + Dropout.
